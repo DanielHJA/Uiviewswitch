@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BD489071E7B120E008001E6 /* daniel.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7BD489061E7B120E008001E6 /* daniel.pdf */; };
 		7BD9E9B91DEF2FDF009439A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9E9B81DEF2FDF009439A9 /* AppDelegate.swift */; };
 		7BD9E9BB1DEF2FDF009439A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9E9BA1DEF2FDF009439A9 /* ViewController.swift */; };
 		7BD9E9BE1DEF2FDF009439A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD9E9BC1DEF2FDF009439A9 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		7BD9E9C31DEF2FDF009439A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD9E9C11DEF2FDF009439A9 /* LaunchScreen.storyboard */; };
 		7BD9E9CE1DEF2FDF009439A9 /* UiviewswitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9E9CD1DEF2FDF009439A9 /* UiviewswitchTests.swift */; };
 		7BD9E9D91DEF2FDF009439A9 /* UiviewswitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9E9D81DEF2FDF009439A9 /* UiviewswitchUITests.swift */; };
+		7BD9E9E71DEF3047009439A9 /* PresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9E9E61DEF3047009439A9 /* PresentationView.swift */; };
+		7BD9E9EB1DEF316C009439A9 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9E9EA1DEF316C009439A9 /* PresentationViewController.swift */; };
+		7BD9E9ED1DEF36F0009439A9 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9E9EC1DEF36EF009439A9 /* Singleton.swift */; };
+		7BD9E9EF1DEF7AC1009439A9 /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD9E9EE1DEF7AC1009439A9 /* AnimationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7BD489061E7B120E008001E6 /* daniel.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = daniel.pdf; sourceTree = "<group>"; };
 		7BD9E9B51DEF2FDF009439A9 /* Uiviewswitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uiviewswitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD9E9B81DEF2FDF009439A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BD9E9BA1DEF2FDF009439A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		7BD9E9D41DEF2FDF009439A9 /* UiviewswitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UiviewswitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD9E9D81DEF2FDF009439A9 /* UiviewswitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiviewswitchUITests.swift; sourceTree = "<group>"; };
 		7BD9E9DA1DEF2FDF009439A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD9E9E61DEF3047009439A9 /* PresentationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationView.swift; sourceTree = "<group>"; };
+		7BD9E9EA1DEF316C009439A9 /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		7BD9E9EC1DEF36EF009439A9 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		7BD9E9EE1DEF7AC1009439A9 /* AnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +109,13 @@
 			children = (
 				7BD9E9B81DEF2FDF009439A9 /* AppDelegate.swift */,
 				7BD9E9BA1DEF2FDF009439A9 /* ViewController.swift */,
+				7BD9E9EC1DEF36EF009439A9 /* Singleton.swift */,
 				7BD9E9BC1DEF2FDF009439A9 /* Main.storyboard */,
+				7BD9E9EA1DEF316C009439A9 /* PresentationViewController.swift */,
+				7BD9E9EE1DEF7AC1009439A9 /* AnimationManager.swift */,
+				7BD9E9E61DEF3047009439A9 /* PresentationView.swift */,
 				7BD9E9BF1DEF2FDF009439A9 /* Assets.xcassets */,
+				7BD489061E7B120E008001E6 /* daniel.pdf */,
 				7BD9E9C11DEF2FDF009439A9 /* LaunchScreen.storyboard */,
 				7BD9E9C41DEF2FDF009439A9 /* Info.plist */,
 			);
@@ -236,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BD9E9C31DEF2FDF009439A9 /* LaunchScreen.storyboard in Resources */,
+				7BD489071E7B120E008001E6 /* daniel.pdf in Resources */,
 				7BD9E9C01DEF2FDF009439A9 /* Assets.xcassets in Resources */,
 				7BD9E9BE1DEF2FDF009439A9 /* Main.storyboard in Resources */,
 			);
@@ -262,8 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD9E9EF1DEF7AC1009439A9 /* AnimationManager.swift in Sources */,
 				7BD9E9BB1DEF2FDF009439A9 /* ViewController.swift in Sources */,
+				7BD9E9EB1DEF316C009439A9 /* PresentationViewController.swift in Sources */,
 				7BD9E9B91DEF2FDF009439A9 /* AppDelegate.swift in Sources */,
+				7BD9E9ED1DEF36F0009439A9 /* Singleton.swift in Sources */,
+				7BD9E9E71DEF3047009439A9 /* PresentationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +534,7 @@
 				7BD9E9DF1DEF2FDF009439A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BD9E9E01DEF2FDF009439A9 /* Build configuration list for PBXNativeTarget "UiviewswitchTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +543,7 @@
 				7BD9E9E21DEF2FDF009439A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BD9E9E31DEF2FDF009439A9 /* Build configuration list for PBXNativeTarget "UiviewswitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +552,7 @@
 				7BD9E9E51DEF2FDF009439A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
